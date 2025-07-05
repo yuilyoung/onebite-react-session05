@@ -1,4 +1,4 @@
-const Button = (Props) => 
+const Welcome = (Props) => 
 {
     console.log(`${Props.name} 님 다시 오셨군요.`);
     console.log(Props);
@@ -13,4 +13,4 @@ const Button = (Props) =>
     );
 };
 
-export default Button;
+export default Welcome;
